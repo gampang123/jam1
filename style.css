@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+    background: url(bg3.jpg) center;
+    width: 828px;
+    height: 1475px;
+}
+
+@media screen and (max-width: 600px){
+    .colomn{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
